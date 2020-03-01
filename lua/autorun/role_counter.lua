@@ -7,7 +7,7 @@
 
 
 -- Ignore if gamemode is not TTT
-if engine.ActiveGamemode() ~= "terrortown" end
+if engine.ActiveGamemode() ~= "terrortown" then return end
 
 
 
