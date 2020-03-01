@@ -63,23 +63,23 @@ net.Receive("TTTRoleCounter_NotifyLeave", function(len)
 
 	if role == ROLE_INNOCENT then
 		chat.AddText(
-			colors["PLAIN"] = "An ",
-			colors["INNOCENT"] = "innocent",
-			colors["PLAIN"] = " has left the server."
+			colors["PLAIN"], "An ",
+			colors["INNOCENT"], "innocent",
+			colors["PLAIN"], " has left the server."
 		)
 
 	elseif role == ROLE_TRAITOR then
 		chat.AddText(
-			colors["PLAIN"] = "A ",
-			colors["TRAITOR"] = "traitor",
-			colors["PLAIN"] = " has left the server."
+			colors["PLAIN"], "A ",
+			colors["TRAITOR"], "traitor",
+			colors["PLAIN"], " has left the server."
 		)
 
 	elseif role == ROLE_DETECTIVE then
 		chat.AddText(
-			colors["PLAIN"] = "A ",
-			colors["DETECTIVE"] = "detective",
-			colors["PLAIN"] = " has left the server."
+			colors["PLAIN"], "A ",
+			colors["DETECTIVE"], "detective",
+			colors["PLAIN"], " has left the server."
 		)
 
 	end
