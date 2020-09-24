@@ -12,4 +12,4 @@ jobs:
       id: action-glua-lint
       uses: TASSIA710/action-glua-lint@master
       with:
-        directory: /
+        directory: /lua/
