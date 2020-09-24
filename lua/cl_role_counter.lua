@@ -19,7 +19,7 @@ local colors = {
 
 
 -- == Receive: TTTRoleCounter_NotifyStart == --
-net.Receive("TTTRoleCounter_NotifyStart", function(len)
+net.Receive("TTTRoleCounter_NotifyStart", function()
 
 	local innocents = net.ReadUInt(8)
 	local traitors = net.ReadUInt(8)
@@ -57,7 +57,7 @@ end)
 
 
 -- == Receive: TTTRoleCounter_NotifyLeave == --
-net.Receive("TTTRoleCounter_NotifyLeave", function(len)
+net.Receive("TTTRoleCounter_NotifyLeave", function()
 
 	local role = net.ReadUInt(8)
 
