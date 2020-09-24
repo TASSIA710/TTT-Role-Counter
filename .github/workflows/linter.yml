@@ -10,6 +10,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Linting
       id: action-glua-lint
-      uses: TASSIA710/action-glua-lint@master
+      uses: TASSIA710/action-glua-lint@80c3a4b023750c59ce62c8bc41ada93b80905b84
       with:
         directory: /
